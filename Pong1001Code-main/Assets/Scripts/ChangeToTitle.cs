@@ -9,7 +9,7 @@ public class ChangeToTitle : MonoBehaviour
     public GameObject ObjectMusic;
     public void Update()
     {
-        if (Input.anyKey)
+        if (Input.GetKey(KeyCode.Escape))   //On escape user will go to title screen
         {
             UnityEngine.SceneManagement.SceneManager.LoadScene(0);
         }

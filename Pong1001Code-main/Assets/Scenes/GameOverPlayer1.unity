@@ -936,7 +936,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '> Press a button to continue'
+  m_text: '> Press ESC to continue'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7bb9b3060163adc4889dd6e2df19922e, type: 2}
   m_sharedMaterial: {fileID: 7420792360593070781, guid: 7bb9b3060163adc4889dd6e2df19922e, type: 2}

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ComputerPaddle : Paddle
 {
-   // public Rigidbody2D ball;
+   // public Rigidbody2D ball;           //Option to add ai control instead
 
    /* private void FixedUpdate()
     {
@@ -25,17 +25,17 @@ public class ComputerPaddle : Paddle
     private void Update()
     {
 
-        if (Input.GetKey(KeyCode.UpArrow))
+        if (Input.GetKey(KeyCode.UpArrow))  //Paddle 2 will be controlled by up and down arrow
         {
-            _direction = Vector2.up;
+            _direction = Vector2.up;        //On up move paddle up
         }
         else if ( Input.GetKey(KeyCode.DownArrow))
         {
-            _direction = Vector2.down;
+            _direction = Vector2.down;       //On down paddle will move down
         }
         else
         {
-            _direction = Vector2.zero;
+            _direction = Vector2.zero;      //Player does not want to move so paddle doesn't move
         }
     }
 
@@ -43,7 +43,7 @@ public class ComputerPaddle : Paddle
     {
         if (_direction.sqrMagnitude != 0)
         {
-            _rigidbody.AddForce(_direction * this.speed);
+            _rigidbody.AddForce(_direction * this.speed);  //Multiply direction by speed
         }
     }
 }
