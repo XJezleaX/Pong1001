@@ -4,5 +4,5 @@ Pong 1001 is a 2023 revamp of the classic Atari game, Pong(1972). Inspired by th
 ### Setup
 
 #### Required Packages:
-Unity
-Unity Hub - Preferred editor version: 2022.3.10f1
+Unity <br>
+Unity Hub - Preferred editor version: 2022.3.10f1 <br>
